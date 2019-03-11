@@ -20,7 +20,7 @@
 	<!-- mysql -->
     <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
         <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
-        <property name="url" value="jdbc:mysql://210.89.188.242:3306/egov"/>
+        <property name="url" value="jdbc:mysql://10.64.20.103:3306/egov"/>
         <property name="username" value="wspark"/>
         <property name="password" value="rplinuxA12#"/>
     </bean>
